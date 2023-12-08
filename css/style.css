@@ -1,8 +1,12 @@
 body {
-  background-color: #f9f7fe;
-  font-family: sans-serif;
+  font-family: "Bungee Spice", sans-serif;
+  color: aliceblue;
+  font-weight: 600;
 }
+
 select {
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
   display: block;
   width: 100%;
   border-radius: 4px;
@@ -10,30 +14,32 @@ select {
 }
 h1 {
   text-align: center;
-  font-family: sans-serif;
-  font-size: 36px;
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 58px;
 }
 
 h2 {
   margin: 0 0 5px;
-  font-size: 28px;
+  font-size: 36px;
 }
 
 .container {
   max-width: 600px;
-  margin: 60px auto;
-  background: white;
-  padding: 30px;
+  margin: auto;
+  background-image: url("file:///G:/My%20Drive/Plus/Plus%20Week%202/worldClock/images/tahiti.jpg");
+  background-size: cover;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
+  padding: 20px;
 }
 
 .city {
   display: flex;
-  margin: 20px 0;
+  margin: 20px 0 10px 10px;
   justify-content: space-between;
   padding: 20px 0;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
 }
 
 .city:last-child {
@@ -41,11 +47,14 @@ h2 {
 }
 
 .date {
-  opacity: 0.7;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  margin-left: 30px;
 }
 .time {
-  font-size: 48px;
+  font-size: 36px;
   font-weight: bold;
+  margin-right: 20px;
 }
 
 .time small {
